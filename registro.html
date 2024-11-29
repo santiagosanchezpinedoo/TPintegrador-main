@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Validación de Formularios</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="logo">Mi Recetario</div>
+    <form method="get" id="searchForm" action="search-results.html">
+    </form>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="categorias.html">Categorías</a></li>
+        <li><a href="login.html">Iniciar Sesión</a></li>
+        <li><a href="registro.html">Registrarse</a></li>
+      </ul>
+    </nav>
+  </header>
+    <div class="container">
+      <div>>
+          <h2>Formulario de registro</h2>
+          <form method="get"  action="login.html">
+            <div>
+              <label for="fullName">Nombre completo</label>
+              <input
+                type="text"
+                name="fullName"
+                id="fullName"
+              />
+              <div class="fullName"></div>
+            </div>
+            <div>
+              <label for="email">Correo electronico</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+              />
+              <div class="email"></div>
+            </div>
+            <div>
+              <label for="phone">Telefono de contacto</label>
+              <input
+                type="number"
+                name="phone"
+                id="phone"
+              />
+              <div class="phone"></div>
+            </div>
+            <div>
+              <label for="password">Contrasena</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+              />
+              <div class="password"></div>
+            </div>
+            <div>
+              <label for="rePassword">Repetir Contrasena</label>
+              <input
+                type="password"
+                name="rePassword"
+                id="rePassword"
+              />
+              <div class="rePassword"></div>
+            </div>
+            <button type="submit">ENVIAR</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer><p>Agustin Litvac y Santiago Sanchez Pinedo</p></footer>
+    <script src="./js/formulario.js"></script>
+  </body>
+</html>

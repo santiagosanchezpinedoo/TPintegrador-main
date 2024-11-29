@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalles de Receta</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">Mi Recetario</div>
+      <form method="get" id="searchForm" action="search-results.html">
+        <input
+          type="text"
+          id="SearchInput"
+          placeholder="Buscar Recetas"
+          required
+          name="input"
+        />
+        <button type="submit">Buscar</button>
+      </form>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="categorias.html">Categorías</a></li>
+          <li><a href="login.html">Iniciar Sesión</a></li>
+          <li><a href="registro.html">Registrarse</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="recipeDetail">
+      </div>
+    </main>
+    <footer><p>Agustin Litvac y Santiago Sanchez Pinedo</p></footer>
+    <script src="./js/search-results.js"></script>
+  </body>
+</html>
